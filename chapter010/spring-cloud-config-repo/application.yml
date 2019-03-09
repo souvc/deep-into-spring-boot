@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: cloud
+cloud:
+  sample:
+    msg: hello
+
+ribbon:
+  eureka:
+    enabled: true
